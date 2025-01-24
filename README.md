@@ -14,7 +14,7 @@
 
 The 7B models released by Hunyuan this time: [Hunyuan-7B-Pretrain](https://huggingface.co/tencent/Hunyuan-7B-Pretrain) and [Hunyuan-7B-Instruct](https://huggingface.co/tencent/Hunyuan-7B-Instruct) , use better data allocation and training, have strong performance, and have achieved a good balance between computing and performance. It stands out from many large-scale language models and is currently one of the strongest Chinese 7B Dense models.
 
-### 技术优势介绍
+### Introduction to Technical Advantages
 
 #### Model 
 
@@ -91,7 +91,7 @@ You can refer to the content in [Tencent-Hunyuan-Large](https://github.com/Tence
 
 ### Inference Performance
 
-This section presents the efficiency test results of deploying various models (original and quantized) using vLLM, including inference speed (tokens/s) under different batch sizes.
+This section presents the efficiency test results of deploying various models using vLLM, including inference speed (tokens/s) under different batch sizes.
 
 | Inference Framework | Model      | Number of GPUs (series 1) | input_length | batch=1             | batch=4              |
 |------|------------|-------------------------|-------------------------|---------------------|----------------------|
