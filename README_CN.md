@@ -1,5 +1,5 @@
 <p align="left">
-    <a href="README_CN.md">中文</a>&nbsp ｜ English</a>
+   <a href="README.md">English</a>  ｜ 中文</a>&nbsp
 </p>
 <br><br>
 
@@ -10,33 +10,31 @@
 <p align="center">
     🫣&nbsp<a href="https://huggingface.co/tencent/"><b>Hugging Face</b></a>&nbsp&nbsp
 
-## Model Introduction
+## 模型介绍
 
-The 7B models released by Hunyuan this time: [Hunyuan-7B-Pretrain](https://huggingface.co/tencent/Hunyuan-7B-Pretrain) and [Hunyuan-7B-Instruct](https://huggingface.co/tencent/Hunyuan-7B-Instruct) , use better data allocation and training, have strong performance, and have achieved a good balance between computing and performance. It stands out from many large-scale language models and is currently one of the strongest Chinese 7B Dense models.
-
+本次混元发布的7B模型：[Hunyuan-7B-Pretrain](https://huggingface.co/tencent/Hunyuan-7B-Pretrain)和[Hunyuan-7B-Instruct](https://huggingface.co/tencent/Hunyuan-7B-Instruct) ，采用了更优的数据配比与训练，拥有强劲的性能，在计算与性能间取得良好平衡的优势从众多规模的语言模型中脱颖而出，是目前最强的中文7B Dense模型之一。
 ### 技术优势介绍
 
-#### Model 
+#### 模型  
 
-- Extended long text capability to 256K and utilizes Grouped Query Attention (GQA)
+- 使用了GQA的同时，将长文能力拓展到256K。
 
-#### Inference Framework
-- This open-source release offers two inference backend options tailored for the Hunyuan-7B model: the popular [vLLM-backend](https://github.com/quinnrong94/vllm/tree/dev_hunyuan) and the TensorRT-LLM Backend. In this release, we are initially open-sourcing the vLLM solution, with plans to release the TRT-LLM solution in the near future.
+#### 推理框架
+- 模型支持 TRT-LLM-backend 和 [vLLM-backend](https://github.com/quinnrong94/vllm/tree/dev_hunyuan) 推理框架。本次优先开源vLLM框架，TRT-LLM将在近期推出。
 
-#### Training Framework
-- The Hunyuan-7B open-source model is fully compatible with the Hugging Face format, enabling researchers and developers to perform model fine-tuning using the hf-deepspeed framework. Learn more : [Tencent-Hunyuan-Large](https://github.com/Tencent/Tencent-Hunyuan-Large) 。
+#### 训练框架
+- Hunyuan-7B开源模型已经支持huggingface格式，支持用户采用hf-deepspeed框架进行模型精调。详情可以参照[Tencent-Hunyuan-Large](https://github.com/Tencent/Tencent-Hunyuan-Large) 。
 
 &nbsp;
 
-## Related News
-* 2025.1.24 We have open-sourced  **Hunyuan-7B-Pretrain** , **Hunyuan-7B-Instruct** on Hugging Face.
+## 新闻
+* 2025.1 我们在Hugging Face开源了**Hunyuan-7B-Pretrain** 、 **Hunyuan-7B-Instruct** 。
 <br>
 
 
-## Benchmark
+## Benchmark评估榜单 
 
-Note: The following benchmarks are evaluated by TRT-LLM-backend
-
+注：下列Benchmark均为 TRT-LLM-backend 测评得出
 **Hunyuan-7B-Pretrain**
 
 |                  | Qwen2.5-7B | Llama3-8B  | OLMO2-7B | HunYuan-7B-V2 |
@@ -85,18 +83,17 @@ Note: The following benchmarks are evaluated by TRT-LLM-backend
 
 
 
-## Quick Start
+## 快速开始
 
-You can refer to the content in [Tencent-Hunyuan-Large](https://github.com/Tencent/Tencent-Hunyuan-Large) to get started quickly. The training and inference code can use the version provided in this github repository.
+您可以参考[Tencent-Hunyuan-Large](https://github.com/Tencent/Tencent-Hunyuan-Large) 中的内容进行快速上手，训练推理代码使用本github仓库提供版本即可。
 
-### Inference Performance
+### 性能评估：
 
-This section presents the efficiency test results of deploying various models (original and quantized) using vLLM, including inference speed (tokens/s) under different batch sizes.
+本部分介绍采用vLLM部署各个模型的效率测试结果，包括不同Batchsize下的推理速度(tokens/s)。
 
-| Inference Framework | Model      | Number of GPUs (Type X) | input_length | batch=1             | batch=4              |
-|------|------------|-------------------------|-------------------------|---------------------|----------------------|
-| vLLM | hunyuan-7B | 1                       | 2048                  | 78.9                | 279.5                  |
+| 推理框架 | 模型                      | 部署卡数（卡型1） | input_length | batch=1             | batch=4              |
+|------|-----------------------------|-----------|-------------------------|---------------------|----------------------|
+| vLLM | hunyuan-7B                  | 1         | 2048                  | 78.9                | 279.5                  |
 
-## Contact Us
-
-If you would like to leave a message for our R&D and product teams, Welcome to contact our open-source team . You can also contact us via email (hunyuan_opensource@tencent.com).
+## 联系我们
+如果你想给我们的研发和产品团队留言，欢迎联系我们腾讯混元LLM团队。你可以通过邮件（hunyuan_opensource@tencent.com）联系我们。
