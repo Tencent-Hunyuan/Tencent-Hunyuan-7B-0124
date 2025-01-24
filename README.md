@@ -93,7 +93,7 @@ You can refer to the content in [Tencent-Hunyuan-Large](https://github.com/Tence
 
 This section presents the efficiency test results of deploying various models (original and quantized) using vLLM, including inference speed (tokens/s) under different batch sizes.
 
-| Inference Framework | Model      | Number of GPUs (Type X) | input_length | batch=1             | batch=4              |
+| Inference Framework | Model      | Number of GPUs (card sex 1) | input_length | batch=1             | batch=4              |
 |------|------------|-------------------------|-------------------------|---------------------|----------------------|
 | vLLM | hunyuan-7B | 1                       | 2048                  | 78.9                | 279.5                  |
 
