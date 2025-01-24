@@ -8,7 +8,7 @@
 </p><p></p>
 
 <p align="center">
-    🫣&nbsp<a href="https://huggingface.co/tencent/"><b>Hugging Face</b></a>&nbsp&nbsp
+    🫣&nbsp<a href="https://huggingface.co/tencent/Hunyuan-7B-Instruct"><b>Hugging Face Hunyuan-7B-Instruct</b></a>&nbsp&nbsp | 🫣&nbsp<a href="https://huggingface.co/tencent/Hunyuan-7B-Pretrain"><b>Hugging Face Hunyuan-7B-Pretrain</b></a>&nbsp&nbsp
 
 ## Model Introduction
 
@@ -88,6 +88,12 @@ Note: The following benchmarks are evaluated by TRT-LLM-backend
 ## Quick Start
 
 You can refer to the content in [Tencent-Hunyuan-Large](https://github.com/Tencent/Tencent-Hunyuan-Large) to get started quickly. The training and inference code can use the version provided in this github repository.
+
+### Docker:
+
+To simplify the deployment process, HunyuanLLM provides a pre-built Docker image:
+
+ [hunyuaninfer/hunyuan-large:dense-infer-open-source](https://hub.docker.com/layers/hunyuaninfer/hunyuan-large/dense-infer-open-source/images/sha256-3a39561d8262dac04fcb46e7860663158909720b76a28b94a54eb852524ae6a4). 
 
 ### Inference Performance
 

@@ -87,6 +87,11 @@
 
 您可以参考[Tencent-Hunyuan-Large](https://github.com/Tencent/Tencent-Hunyuan-Large) 中的内容进行快速上手，训练推理代码使用本github仓库提供版本即可。
 
+## 镜像
+
+为了简化部署过程，HunyuanLLM提供了预先构建的Docker镜像：
+[hunyuaninfer/hunyuan-large:dense-infer-open-source](https://hub.docker.com/layers/hunyuaninfer/hunyuan-large/dense-infer-open-source/images/sha256-3a39561d8262dac04fcb46e7860663158909720b76a28b94a54eb852524ae6a4). 
+
 ### 性能评估：
 
 本部分介绍采用vLLM部署各个模型的效率测试结果，包括不同Batchsize下的推理速度(tokens/s)。
