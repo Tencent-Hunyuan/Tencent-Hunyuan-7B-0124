@@ -12,7 +12,7 @@
 
 ## 模型介绍
 
-本次混元发布的7B模型：[Hunyuan-7B-Pretrain](https://huggingface.co/tencent/Hunyuan-7B-Pretrain)和[Hunyuan-7B-Instruct](https://huggingface.co/tencent/Hunyuan-7B-Instruct) ，采用了更优的数据配比与训练，拥有强劲的性能，在计算与性能间取得良好平衡的优势从众多规模的语言模型中脱颖而出，是目前最强的中文7B Dense模型之一。
+本次混元发布的7B模型：[Hunyuan-7B-Pretrain](https://huggingface.co/tencent/Hunyuan-7B-Pretrain-0124)和[Hunyuan-7B-Instruct](https://huggingface.co/tencent/Hunyuan-7B-Instruct-0124) ，采用了更优的数据配比与训练，拥有强劲的性能，在计算与性能间取得良好平衡的优势从众多规模的语言模型中脱颖而出，是目前最强的中文7B Dense模型之一。
 ### 技术优势介绍
 
 #### 模型  
@@ -28,7 +28,7 @@
 &nbsp;
 
 ## 新闻
-* 2025.1 我们在Hugging Face开源了**Hunyuan-7B-Pretrain** 、 **Hunyuan-7B-Instruct** 。
+* 2025.1 我们在Hugging Face开源了**Hunyuan-7B-Pretrain-0124** 、 **Hunyuan-7B-Instruct-0124** 。
 <br>
 
 
