@@ -8,11 +8,11 @@
 </p><p></p>
 
 <p align="center">
-    🫣&nbsp<a href="https://huggingface.co/tencent/Hunyuan-7B-Instruct"><b>Hugging Face Hunyuan-7B-Instruct</b></a>&nbsp&nbsp | 🫣&nbsp<a href="https://huggingface.co/tencent/Hunyuan-7B-Pretrain"><b>Hugging Face Hunyuan-7B-Pretrain</b></a>&nbsp&nbsp
+    🫣&nbsp<a href="https://huggingface.co/tencent/Hunyuan-7B-Instruct-0124"><b>Hugging Face Hunyuan-7B-Instruct-0124</b></a>&nbsp&nbsp | 🫣&nbsp<a href="https://huggingface.co/tencent/Hunyuan-7B-Pretrain-0124"><b>Hugging Face Hunyuan-7B-Pretrain-0124</b></a>&nbsp&nbsp
 
 ## Model Introduction
 
-The 7B models released by Hunyuan this time: [Hunyuan-7B-Pretrain](https://huggingface.co/tencent/Hunyuan-7B-Pretrain) and [Hunyuan-7B-Instruct](https://huggingface.co/tencent/Hunyuan-7B-Instruct) , use better data allocation and training, have strong performance, and have achieved a good balance between computing and performance. It stands out from many large-scale language models and is currently one of the strongest Chinese 7B Dense models.
+The 7B models released by Hunyuan this time: [Hunyuan-7B-Pretrain-0124](https://huggingface.co/tencent/Hunyuan-7B-Pretrain-0124) and [Hunyuan-7B-Instruct-0124](https://huggingface.co/tencent/Hunyuan-7B-Instruct-0124) , use better data allocation and training, have strong performance, and have achieved a good balance between computing and performance. It stands out from many large-scale language models and is currently one of the strongest Chinese 7B Dense models.
 
 ### Introduction to Technical Advantages
 
@@ -29,7 +29,7 @@ The 7B models released by Hunyuan this time: [Hunyuan-7B-Pretrain](https://huggi
 &nbsp;
 
 ## Related News
-* 2025.1.24 We have open-sourced  **Hunyuan-7B-Pretrain** , **Hunyuan-7B-Instruct** on Hugging Face.
+* 2025.1.24 We have open-sourced  **Hunyuan-7B-Pretrain-0124** , **Hunyuan-7B-Instruct-0124** on Hugging Face.
 <br>
 
 
